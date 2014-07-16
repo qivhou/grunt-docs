@@ -38,7 +38,7 @@
         }
     });
     
-    grunt.registerTask('log','log stuff.', function(){
+    grunt.registerMultiTask('log','log stuff.', function(){
         grunt.log.writeln(this.target + ': ' + this.data);
     });
     
